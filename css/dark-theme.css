@@ -1,0 +1,31 @@
+/* Change the styles below in order to customize your template */
+
+body{font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; font-weight: regular; font-size: 16px; color: #CBCBCB; background-color: #333; margin: 0;}
+h1{font-weight: bold; font-size: 31px; letter-spacing: -1px; color: #FFF; line-height: 33px;}
+h3{font-weight: bold; font-size: 12px; color: #777; text-transform: uppercase; margin: 18px 0 0 0;}
+p{margin: 8px 0 20px 0; line-height: 18px;}
+a, a:visited{color: #72B6E5; text-decoration: none;}
+a:hover{text-decoration: underline;}
+li {margin-bottom:.5em;}
+
+#list {display:block; border: 1px solid green;}
+#logo {position:relative;float:right; display:inline;height:60px;margin:20px 20px 0 0 }
+#warning {color:red;}
+#autocomplete {margin-bottom:8em;}
+
+.wrapper{display: block; padding: 4px 30px 0 30px;}
+.map{background-color:#eee; position: absolute; top: 0; left: 0; bottom: 0; width: 55%; *height:100%;}
+.sidepanel{background-color:#333; position: absolute; top: 0; right: 0; bottom: 0; width: 45%; height: 100%; overflow: auto;}
+.context{font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; font-size: 14px; padding: 10px 0 0 0;}
+.subheader{border-bottom: 1px solid #555;}
+.footer{border-top: 1px solid #555; margin-top: 30px; color: #CBCBCB;}
+.footer h3{color: #CBCBCB}
+.titleBlock{text-align: right;}
+.species{position:relative; float:right; width:142px;background:none repeat scroll 0 0 white;1px solid #999;border-radius: 4px;box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.2);color: #ccc;}
+.figure img{width:90%; border-radius: 4px; box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.2);color: #ccc;}
+.footer img{ display:block; margin:auto; width:60%;background-color:#fff; border: 5px solid #fff; border-radius: 4px;}
+.ui-menu-item {margin-bottom:2px; background-color:#777;}
+.ui-menu-item:hover{margin-bottom:2px; color:white; background-color:#333;}
+.ui-tabs-anchor {background-color: #333;border: 1px solid #72B6E5; border-radius:2px;}
+.ui-tabs .ui-tabs-panel{padding: 0;}
+.ui-tabs .ui-tabs-nav {padding:0;}
