@@ -17,12 +17,12 @@
     <script src="js/jquery.js"></script>
     <link href="css/jquery-ui.css" rel="stylesheet">
     <script src="js/jquery-ui.js"></script>
-	<link rel="stylesheet" href="css/dark-theme.css">
+    <link rel="stylesheet" href="css/dark-theme.css">
     <script type="text/javascript">
-	//this jQuery-UI bit takes care of the tabbed menu and pages
-		$(function() {
-		$( "#tabs" ).tabs();
-		});
+    //this jQuery-UI bit takes care of the tabbed menu and pages
+        $(function() {
+        $( "#tabs" ).tabs();
+        });
     </script>
   </head>
   <body>
@@ -30,76 +30,101 @@
     <div class="sidepanel">
       <div class="wrapper">
         <div class="context subheader">
-			<a href="http://www.wetlands.org" target="_blank"><img src="images/wi-logo.png" id="logo"></a>
+            <a href="http://www.wetlands.org" target="_blank"><img src="images/wi-logo.png" id="logo"></a>
             <h1>Waterbird Population Estimates</h1>
             <h2>Consultation on population boundaries</h2>
-			<h3 id="warning">CONSULTATION DRAFT – NOT TO BE QUOTED</h3>
+            <h3 id="warning">CONSULTATION DRAFT – NOT TO BE QUOTED</h3>
         </div>
         <div id="tabs">
             <ul>
                 <li><a href="#tabs-1">Introduction</a></li>
-				<li><a href="#tabs-2">Species Search</a></li>
+                <li><a href="#tabs-2">Species Search</a></li>
             </ul>
             <div id="tabs-1">
                 <h3>Introduction</h3>
                 <p>Information on the world’s waterbird populations, with estimates, trends and 1% values is available on the <a href="http://wpe.wetlands.org" target="_blank">Waterbird Population Estimates portal</a>. This information is used as the definitive source by Ramsar Convention, African Eurasian Waterbird Agreement, East Asian - Australasian Flyway Partnership, Western Hemisphere Shorebird Reserve Network and for many other conservation purposes.</p>
-		<p>Wetlands International is developing boundary maps for biogeographic populations of all waterbird species to be included in the new global Waterbird Population Portal (WPP), scheduled for launch in late 2020. For information on the WPP, see <a href="https://www.wetlands.org/publications/the-waterbird-population-portal-flyer/">here</a>.</p>
-		<p>Boundary maps are available for 1,833 of the 2,348 of waterbird populations recognised in the portal. The boundary maps include those finalised for the African Eurasian region in the <a href="https://criticalsites.wetlands.org/">Critical Site Network Tool</a> and draft maps prepared by Wetlands International, Wildfowl &amp; Wetlands Trust (UK), Manomet, Inc. and our other partners. For a description of biogeographic populations and their delineation adopted by the WPP, see <a href="http://test.wetlands.org/WPE6/images/WaterbirdPopulationsGuidance.pdf" target="_blank">here</a>.</p>
-                <!--Copy and paste the div below for creating content blocks-->
-                <h3>Consultation process</h3>
-                <p>The main source document for waterbird populations and definitions used for this work is available online on the <a href="http://wpe.wetlands.org/" target="_blank">Waterbird Population Estimates portal</a>. We invite your review of the maps and suggestions to refine these proposed boundaries. Specific suggestions to boundaries need to be supported on the basis of information on (a) known movements of birds (from colour marking or metal band/ring movements or telemetry studies); or (b) known distribution of birds outside the boundaries. </p>
-                <p>To provide your input, we have the following options:
+                <p>Wetlands International is developing boundary maps for biogeographic populations of all waterbird species to be included in the new global Waterbird Population Portal (WPP), scheduled for launch in late 2020. For information on the WPP, see <a href="https://www.wetlands.org/publications/the-waterbird-population-portal-flyer/">here</a>.</p>
+                <p>Boundary maps are available for 1,833 of the 2,348 of waterbird populations recognised in the portal. The boundary maps include those finalised for the African Eurasian region in the <a href="https://criticalsites.wetlands.org/">Critical Site Network Tool</a> and draft maps prepared by Wetlands International, Wildfowl &amp; Wetlands Trust (UK), Manomet, Inc. and our other partners. For a description of biogeographic populations and their delineation adopted by the WPP, see <a href="http://test.wetlands.org/WPE6/images/WaterbirdPopulationsGuidance.pdf" target="_blank">here</a>.</p>
+                <p>A list of the waterbird populations recorded in the portal database is available <a href="downloads/WPP Pops for external review.xlsx" target="_blank">here</a>. This follows the 2019 BirdLife/HBW taxonomy. Additional information on the range and status of these populations is also provided, including whether a digital boundary currently exists for a population. Maps for the missing populations will be uploaded as they are generated. If you can provide boundaries for any of the missing populations, kindly email us. Maps for the missing populations will be uploaded as they are provided. All contributors will be listed in the new Portal.</p>
+        <!--Copy and paste the div below for creating content blocks-->
+                <h3>How to contribute to the review?</h3>
+                <p>Contributors are invited to review the existing boundaries and to provide missing boundaries. Please note the following:
                     <ul>
-                        <li>Click on the boundary you wish to provide feedback for and then click the download link to obtain a .kml file of it. You can edit this file using either your own GIS software or the excellent online service <a href="http://www.geojson.io" target="_blank">geojson.io</a>. Then email to us, email details provided below.
-                        <li>Save the map for a species on to a computer (using PrintScreen). Use any suitable software (Microsoft Paint) to annotate proposals for changes on the map. Email to us, email details provided below.
-                        <li>Save the map for a species on to a computer (using PrintScreen). Print the map and make annotations with a pen to indicate suggested changes. Scan the map and email to us, email details provided below.
+                        <li>Boundaries should cover all areas where a population regularly occurs. Vagrancy should not be included.
+                        <li>Boundaries should be defined with appropriate evidence. This includes confirmed observations and records of movements e.g. from surveys, colour marking, metal band/ring movements, telemetry studies or stable isotope studies.
                     </ul>
+                    There are 4 methods to provide corrected or new boundaries:
+                    <ol type="A">
+                        <li>Annotate a map image
+                            <ol type="1">
+                                <li>Make a screenshot from the website of the boundary map for one or more populations of a single species and insert it into a PowerPoint slide. For new population boundaries, make a print screen of a blank map (a base map) covering the range of the population.
+                                <li>Draw the new boundary line directly on the map image. In PowerPoint, use Insert > Shape > Curve.
+                            </ol>
+                        <li>Print and scan a map
+                            <ol type="1">
+                                <li>Print an image of the boundary map or base map for one or more populations of a single species
+                                <li>Draw the new boundary on the printed map.
+                                <li>Scan or photograph the map.
+                            </ol>
+                        <li>Edit the kml
+                            <ol type="1">
+                                <li>Click on the boundary for one or more populations of a single species you wish to provide feedback and then click the download link to obtain a .kml file.
+                                <li>Edit the kml using either GIS software (e.g. Google Earth, QGIS) or the online service <a href="https://geojson.io" target="_blank">geojson.io</a>.
+                            </ol>
+                        <li>Provide a clear description of changes proposed
+                            <ol type="1">
+                                <li>1.	Indicate if a boundary should be expanded or contracted to a clear geographic landmark or coordinate. This is only appropriate for very simple modifications, for new boundaries a map is always required.
+                            </ol>
+                    </ol>
                 </p>
+                <p>Modified and new boundaries can be submitted to <a href="mailto:wpe@wetlands.org">wpe@wetlands.org</a>. All proposals for boundaries must be provided with references and supporting evidence.</p>
+                
                 <h3>Important Note</h3>
-                <p>Kindly note that these are draft maps are solely developed and shared for the purpose of consultation. They should not be used in this form as definite boundaries for the concerned species and their populations.
+                <p>Kindly note that these draft boundary maps are solely developed and shared for the purpose of expert consultation. They should not be used in this form as definite boundaries for the concerned species and their populations.                
                 </p>
-                <p>It is anticipated that a final version of the maps will be made public with the launch of the WPE6, which is intended to take place by end 2018.</p>
-				<p>Many thanks for your input.</p>
+                <p>Many thanks for your input</p>
                 <h3>Contact</h3>
-                <p><a href="mailto:taej.mundkur@wetlands.org">Taej Mundkur</a></p>
+                <p><a href="mailto:wpe@wetlands.org">Taej Mundkur, Wetlands International</a></p>
             </div>
             <div id="tabs-2">
                 <h3>Species Search</h3>
-				<p>Please use the input box below to select the species for which you want to display or download the population flyway boundary. This input box will suggest and autocomplete the scientific species names for which we have a boundary once you start typing. After clicking the Show button the boundary is displayed on the map you can click the boundary to access the download link.</p>
-				<input id="species">
-				<script type="text/javascript">
-					//returns a JSON object containing result from the SQL query (species scientific names)
-					var cartodbAPI = "https://wetlands.cartodb.com/api/v2/sql?q=SELECT%20DISTINCT%28scientific_name%29%20FROM%20wpp";
-					//convert the JSON object into an array with species names
-					var list = $.getJSON(cartodbAPI, function (json) {
-						var len = json.rows.length;
-						var species = [];
-						for (var i = 0; i < len; i++) {
-							species.push(json.rows[i].scientific_name);
-						}
-						//jQuery-UI autocomplete function on HTML element with id species (the text input)
-						$( "#species" ).autocomplete({
-						source: species //the array with species names
-						});
-					});
-				</script>
-				<input type="button" value="Show">
-				<h3>Additional Data Sources</h3>
-				<ul>
-					<li><a href="http://www.birdlife.org/datazone/species/search" target="_blank">BirdLife International Data Zone</a>
-					<li><a href="http://www.iucnredlist.org" target="_blank">IUCN Red List</a>
-				</ul>
-				<h3>Acknowledgements</h3>
-				<p>This consultation process is set to involve a number of experts, Specialist Group members and others from around the world. We greatly appreciate your kind input. The final version of the website will include a full list of contributors.</p>
+                <p>Please use the input box below to select the species for which you want to display or download the population flyway boundary. This input box will suggest and autocomplete the scientific species names for which we have a boundary once you start typing. After clicking the Show button the boundary is displayed on the map you can click the boundary to access the download link.</p>
+                <input id="species">
+                <script type="text/javascript">
+                    //returns a JSON object containing result from the SQL query (species scientific names)
+                    var cartodbAPI = "https://wetlands.cartodb.com/api/v2/sql?q=SELECT%20DISTINCT%28scientific_name%29%20FROM%20wpp";
+                    //convert the JSON object into an array with species names
+                    var list = $.getJSON(cartodbAPI, function (json) {
+                        var len = json.rows.length;
+                        var species = [];
+                        for (var i = 0; i < len; i++) {
+                            species.push(json.rows[i].scientific_name);
+                        }
+                        //jQuery-UI autocomplete function on HTML element with id species (the text input)
+                        $( "#species" ).autocomplete({
+                        source: species //the array with species names
+                        });
+                    });
+                </script>
+                <input type="button" value="Show">
+                <h3>Additional Data Sources</h3>
+                <ul>
+                    <li><a href="http://www.birdlife.org/datazone/species/search" target="_blank">BirdLife International Data Zone</a>
+                    <li><a href="http://www.iucnredlist.org" target="_blank">IUCN Red List</a>
+                </ul>
+                <h3>Acknowledgements</h3>
+                <p>This consultation process is set to involve a number of experts, Specialist Group members and others from around the world. We greatly appreciate your kind input. The final version of the website will include a full list of contributors.</p>
             </div>
         </div>
         <div class="context footer">
-			<h3>This project was undertaken with the financial support of:</h3>
-			<p></p>
-			<a href="http://www.ec.gc.ca/default.asp?lang=en" target="_blank"><img src="images/ECCC-logo.svg"></a>
-			<p>
-			<h3>Disclaimer</h3>
-			<p>The presentation of material on this website and the geographical designations employed do not imply the expression of any opinion whatsoever on the part of Wetlands International concerning the legal status of any country, area or territory, or concerning the delimitation of its boundaries or frontiers. Names of territories used (and any alternatives) are included solely to help users of this website apply information contained within this volume for waterbird conservation purposes.</p>
+            <h3>This project was undertaken with the financial support of:</h3>
+            <p></p>
+            <a href="https://www.ead.gov.ae/en" target="_blank"><img src="images/EAD.svg"></a>
+            <p></p>
+            <a href="http://www.ec.gc.ca/default.asp?lang=en" target="_blank"><img src="images/ECCC-logo.svg"></a>
+            <p>
+            <h3>Disclaimer</h3>
+            <p>The presentation of material on this website and the geographical designations employed do not imply the expression of any opinion whatsoever on the part of Wetlands International concerning the legal status of any country, area or territory, or concerning the delimitation of its boundaries or frontiers. Names of territories used (and any alternatives) are included solely to help users of this website apply information contained within this volume for waterbird conservation purposes.</p>
         </div>
       </div>
     </div>
@@ -108,23 +133,23 @@
     <!-- Check the cartodb.js documentation for more info http://developers.cartodb.com/documentation/cartodb-js.html-->
     <!-- This script fetches the layers from CartoDB and sets the CartoDB SQL filter for a species -->
     <script type="text/javascript">
-		function boundary(layer) {
-			var species = "";
-			$( "#species" )
-			.on('focusout', function () {
-				var species = $( "#species" ).val();
-				console.log(species);
-				layer.setSQL("SELECT * FROM wpp WHERE scientific_name ='"+ species +"'")
-			});
-		}
-		function main(){
-			cartodb.createVis('map', 'http://wetlands.cartodb.com/api/v2/viz/5d51564c-cf12-11e4-9d6b-0e018d66dc29/viz.json')
-			.done(function(vis, layers) {
-				var layer = layers[1].getSubLayer(0);
-				boundary(layer);
-			});
-		}
-		window.onload = main;
+        function boundary(layer) {
+            var species = "";
+            $( "#species" )
+            .on('focusout', function () {
+                var species = $( "#species" ).val();
+                console.log(species);
+                layer.setSQL("SELECT * FROM wpp WHERE scientific_name ='"+ species +"'")
+            });
+        }
+        function main(){
+            cartodb.createVis('map', 'http://wetlands.cartodb.com/api/v2/viz/5d51564c-cf12-11e4-9d6b-0e018d66dc29/viz.json')
+            .done(function(vis, layers) {
+                var layer = layers[1].getSubLayer(0);
+                boundary(layer);
+            });
+        }
+        window.onload = main;
     </script>
   </body>
 </html>
