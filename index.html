@@ -140,7 +140,7 @@
             });
         }
         function main(){
-            cartodb.createVis('map', 'http://wetlands.cartodb.com/api/v2/viz/5d51564c-cf12-11e4-9d6b-0e018d66dc29/viz.json')
+            cartodb.createVis('map', 'https://wetlands.cartodb.com/api/v2/viz/5d51564c-cf12-11e4-9d6b-0e018d66dc29/viz.json')
             .done(function(vis, layers) {
                 var layer = layers[1].getSubLayer(0);
                 boundary(layer);
